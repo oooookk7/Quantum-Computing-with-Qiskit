@@ -33,3 +33,39 @@ Below are the modules,
 - **Phase Shift (S, T, Z)**: Rotates the phase of the qubit state
 
 - **Toffoli (CCNOT)**: Quantum version of classical AND gate
+
+### Quantum Computing Mathematics
+
+A Qubit state is reprsented as, where $α$ and $β$ are complex numbers representing probabilities - _where $|0⟩$ (north-pole) and $|1⟩$ (south-pole)_.
+
+$|ψ⟩ = α|0⟩ + β|1⟩$
+
+The probabilities must sum to $1$:
+
+$|α|² + |β|² = 1$
+
+For example, a Hadamard gate applied to $|0⟩$ creates an equal superposition state,
+
+$|ψ⟩ = 1/√2 (|0⟩ + |1⟩)$
+
+The Wave function is represented as $ψ$, which describes the Quantum system state,
+
+$P(x) = |\psi(x)|^2$, $\int |\psi(x)|^2 \, dx = 1$
+
+A general qubit state is
+
+$|ψ⟩ = cos(θ/2) |0⟩ + e^{iφ} sin(θ/2) |1⟩$
+
+- $θ$ (theta) determines the probability of measuring $0$ or $1$
+- $φ$ (phi) determines the phase of the state
+
+### Differences from Quantum to Classical
+
+| Feature             | Classical Computing        | Quantum Computing                             |
+| ------------------- | -------------------------- | --------------------------------------------- |
+| **Unit of Information** | Bit (0 or 1)               | Qubit (0, 1, or both simultaneously)          |
+| **Processing Speed**    | Sequential processing      | Parallel processing using superposition       |
+| **Scalability**         | Limited for large problems | Exponentially faster for complex computations |
+| **Key Principle**       | Boolean Logic              | Quantum Mechanics                             |
+
+
