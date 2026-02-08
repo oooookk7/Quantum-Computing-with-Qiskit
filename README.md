@@ -12,7 +12,8 @@ Below are the modules,
 8. Variational Quantum Classifier
 9. Quantum Kernel-based Classifier
 10. Hybrid Neural Network (Quantum + Classical)
-
+11. Solving Chemistry Problem (through Simulation)
+12. Portfolio Optimization using Quantum Annealing
 
 ## Summary of Basics
 
