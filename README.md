@@ -9,8 +9,10 @@ Below are the modules,
 5. Deutsch Algorithm: Replacement to determine if function is constant or not.
 6. Grover Algorithm: Replacement for classical search algorithm
 7. Shor Algorithm: Breaking RSA encryption.
+8. Variational Quantum Classifier: Hybrid quantum-classical model for supervised learning, which uses parameterized quantum circuits to classify data.
 
-### Summary of Basics
+
+## Summary of Basics
 
 - **Superposition**: A qubit can exist in multiple states (0 and 1) at the same time until it is measured.
     - For example, if a qubit is in a superposition of `|0›` and `|1›`, it holds a probability distribution of both states
@@ -59,13 +61,36 @@ $|ψ⟩ = cos(θ/2) |0⟩ + e^{iφ} sin(θ/2) |1⟩$
 - $θ$ (theta) determines the probability of measuring $0$ or $1$
 - $φ$ (phi) determines the phase of the state
 
-### Differences from Quantum to Classical
+### Differences from Quantum to Classical Computing
 
-| Feature             | Classical Computing        | Quantum Computing                             |
-| ------------------- | -------------------------- | --------------------------------------------- |
-| **Unit of Information** | Bit (0 or 1)               | Qubit (0, 1, or both simultaneously)          |
-| **Processing Speed**    | Sequential processing      | Parallel processing using superposition       |
-| **Scalability**         | Limited for large problems | Exponentially faster for complex computations |
-| **Key Principle**       | Boolean Logic              | Quantum Mechanics                             |
+| Feature | Classical Computing | Quantum Computing |
+| --- | ---- | --- |
+| **Unit of Information** | Bit (0 or 1) | Qubit (0, 1, or both simultaneously) |
+| **Processing Speed** | Sequential processing | Parallel processing using superposition |
+| **Scalability** | Limited for large problems | Exponentially faster for complex computations |
+| **Key Principle** | Boolean Logic | Quantum Mechanics |
 
+## Quantum ML
+
+Quantum ML merges Quantum Computing and AI to build more powerful learning algorithms
+
+### Differences from Quantum to Classical Computing
+
+| Feature | Classical ML | Quantum ML |
+| -- | -- | -- |
+| **Computation** | Sequential | Parallel (Superposition) |
+| **Data Processing** | Limited scalability | Exponentially better feature mapping |
+| **Optimization** | Hard for large datasets | Faster with quantum algorithms |
+
+### Quantum Key Algorithms
+
+Quantum Feature Mapping
+Transforms classical data into higher-dimensional quantum states
+
+Example: Quantum Kernel Methods improve ML classification tasks
+
+Quantum Neural Networks (QNNs)
+Use quantum circuits instead of classical neurons
+
+Faster model convergence
 
