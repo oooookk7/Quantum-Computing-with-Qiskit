@@ -9,7 +9,9 @@ Below are the modules,
 5. Deutsch Algorithm: Replacement to determine if function is constant or not.
 6. Grover Algorithm: Replacement for classical search algorithm
 7. Shor Algorithm: Breaking RSA encryption.
-8. Variational Quantum Classifier: Hybrid quantum-classical model for supervised learning, which uses parameterized quantum circuits to classify data.
+8. Variational Quantum Classifier
+9. Quantum Kernel-based Classifier
+10. Hybrid Neural Network (Quantum + Classical)
 
 
 ## Summary of Basics
@@ -69,28 +71,3 @@ $|ψ⟩ = cos(θ/2) |0⟩ + e^{iφ} sin(θ/2) |1⟩$
 | **Processing Speed** | Sequential processing | Parallel processing using superposition |
 | **Scalability** | Limited for large problems | Exponentially faster for complex computations |
 | **Key Principle** | Boolean Logic | Quantum Mechanics |
-
-## Quantum ML
-
-Quantum ML merges Quantum Computing and AI to build more powerful learning algorithms
-
-### Differences from Quantum to Classical Computing
-
-| Feature | Classical ML | Quantum ML |
-| -- | -- | -- |
-| **Computation** | Sequential | Parallel (Superposition) |
-| **Data Processing** | Limited scalability | Exponentially better feature mapping |
-| **Optimization** | Hard for large datasets | Faster with quantum algorithms |
-
-### Quantum Key Algorithms
-
-Quantum Feature Mapping
-Transforms classical data into higher-dimensional quantum states
-
-Example: Quantum Kernel Methods improve ML classification tasks
-
-Quantum Neural Networks (QNNs)
-Use quantum circuits instead of classical neurons
-
-Faster model convergence
-
